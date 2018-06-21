@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2BF34820C34FDD009907AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BF34720C34FDD009907AC /* AppDelegate.swift */; };
+		6F2BF34A20C34FDD009907AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BF34920C34FDD009907AC /* ViewController.swift */; };
+		6F2BF34D20C34FDD009907AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2BF34B20C34FDD009907AC /* Main.storyboard */; };
+		6F2BF34F20C34FDF009907AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2BF34E20C34FDF009907AC /* Assets.xcassets */; };
+		6F2BF35220C34FDF009907AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2BF35020C34FDF009907AC /* LaunchScreen.storyboard */; };
+		6F2BF35D20C34FDF009907AC /* KargaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BF35C20C34FDF009907AC /* KargaTests.swift */; };
+		6F2BF36820C34FDF009907AC /* KargaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BF36720C34FDF009907AC /* KargaUITests.swift */; };
+		6F2BF37620C35031009907AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F2BF37520C35031009907AC /* GoogleService-Info.plist */; };
+		6F2BF37820C35231009907AC /* crow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2BF37720C35231009907AC /* crow.png */; };
+		6F2BF37A20C352A3009907AC /* crow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2BF37920C352A3009907AC /* crow2.png */; };
+		6F2BF37C20C35812009907AC /* ViewControllerSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BF37B20C35812009907AC /* ViewControllerSignUp.swift */; };
+		6FAB5E8420C48AC200A36D52 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB5E8320C48AC200A36D52 /* TableViewCell.swift */; };
+		6FAB5E8620C48BDB00A36D52 /* cargoDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB5E8520C48BDB00A36D52 /* cargoDB.swift */; };
+		6FFC972D20C372F6005096B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC972C20C372F6005096B4 /* SecondViewController.swift */; };
+		6FFC972F20C40597005096B4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC972E20C40597005096B4 /* MapViewController.swift */; };
+		9E5858F0FE8E92C39AC23E73 /* Pods_Karga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C113380E1535E11B1D7373EE /* Pods_Karga.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F2BF35920C34FDF009907AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2BF33C20C34FDD009907AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2BF34320C34FDD009907AC;
+			remoteInfo = Karga;
+		};
+		6F2BF36420C34FDF009907AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2BF33C20C34FDD009907AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2BF34320C34FDD009907AC;
+			remoteInfo = Karga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F5F0C237918B6D6B5A60672 /* Pods_KargaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KargaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2BF34420C34FDD009907AC /* Karga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2BF34720C34FDD009907AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F2BF34920C34FDD009907AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F2BF34C20C34FDD009907AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F2BF34E20C34FDF009907AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F2BF35120C34FDF009907AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F2BF35320C34FDF009907AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2BF35820C34FDF009907AC /* KargaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KargaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2BF35C20C34FDF009907AC /* KargaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KargaTests.swift; sourceTree = "<group>"; };
+		6F2BF35E20C34FDF009907AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2BF36320C34FDF009907AC /* KargaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KargaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2BF36720C34FDF009907AC /* KargaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KargaUITests.swift; sourceTree = "<group>"; };
+		6F2BF36920C34FDF009907AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2BF37520C35031009907AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F2BF37720C35231009907AC /* crow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crow.png; sourceTree = "<group>"; };
+		6F2BF37920C352A3009907AC /* crow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crow2.png; sourceTree = "<group>"; };
+		6F2BF37B20C35812009907AC /* ViewControllerSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSignUp.swift; sourceTree = "<group>"; };
+		6FAB5E8320C48AC200A36D52 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6FAB5E8520C48BDB00A36D52 /* cargoDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cargoDB.swift; sourceTree = "<group>"; };
+		6FFC972C20C372F6005096B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6FFC972E20C40597005096B4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		800F4149605243C8CE4702C2 /* Pods_KargaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KargaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7CB26A636762F1968C74D5 /* Pods-Karga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karga.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Karga/Pods-Karga.debug.xcconfig"; sourceTree = "<group>"; };
+		C07A64DBE7DA83FE5FBD149C /* Pods-Karga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karga.release.xcconfig"; path = "Pods/Target Support Files/Pods-Karga/Pods-Karga.release.xcconfig"; sourceTree = "<group>"; };
+		C113380E1535E11B1D7373EE /* Pods_Karga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2BF34120C34FDD009907AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5858F0FE8E92C39AC23E73 /* Pods_Karga.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2BF35520C34FDF009907AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2BF36020C34FDF009907AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034C963C9DCE82BCEFCD6D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C113380E1535E11B1D7373EE /* Pods_Karga.framework */,
+				3F5F0C237918B6D6B5A60672 /* Pods_KargaTests.framework */,
+				800F4149605243C8CE4702C2 /* Pods_KargaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F2BF33B20C34FDD009907AC = {
+			isa = PBXGroup;
+			children = (
+				6F2BF34620C34FDD009907AC /* Karga */,
+				6F2BF35B20C34FDF009907AC /* KargaTests */,
+				6F2BF36620C34FDF009907AC /* KargaUITests */,
+				6F2BF34520C34FDD009907AC /* Products */,
+				7338B42EEFED9C0AAF407CBE /* Pods */,
+				034C963C9DCE82BCEFCD6D3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2BF34520C34FDD009907AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2BF34420C34FDD009907AC /* Karga.app */,
+				6F2BF35820C34FDF009907AC /* KargaTests.xctest */,
+				6F2BF36320C34FDF009907AC /* KargaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2BF34620C34FDD009907AC /* Karga */ = {
+			isa = PBXGroup;
+			children = (
+				6F2BF34720C34FDD009907AC /* AppDelegate.swift */,
+				6FFC972C20C372F6005096B4 /* SecondViewController.swift */,
+				6F2BF37B20C35812009907AC /* ViewControllerSignUp.swift */,
+				6FAB5E8520C48BDB00A36D52 /* cargoDB.swift */,
+				6FAB5E8320C48AC200A36D52 /* TableViewCell.swift */,
+				6F2BF34920C34FDD009907AC /* ViewController.swift */,
+				6F2BF34B20C34FDD009907AC /* Main.storyboard */,
+				6FFC972E20C40597005096B4 /* MapViewController.swift */,
+				6F2BF34E20C34FDF009907AC /* Assets.xcassets */,
+				6F2BF35020C34FDF009907AC /* LaunchScreen.storyboard */,
+				6F2BF37520C35031009907AC /* GoogleService-Info.plist */,
+				6F2BF37720C35231009907AC /* crow.png */,
+				6F2BF37920C352A3009907AC /* crow2.png */,
+				6F2BF35320C34FDF009907AC /* Info.plist */,
+			);
+			path = Karga;
+			sourceTree = "<group>";
+		};
+		6F2BF35B20C34FDF009907AC /* KargaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2BF35C20C34FDF009907AC /* KargaTests.swift */,
+				6F2BF35E20C34FDF009907AC /* Info.plist */,
+			);
+			path = KargaTests;
+			sourceTree = "<group>";
+		};
+		6F2BF36620C34FDF009907AC /* KargaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2BF36720C34FDF009907AC /* KargaUITests.swift */,
+				6F2BF36920C34FDF009907AC /* Info.plist */,
+			);
+			path = KargaUITests;
+			sourceTree = "<group>";
+		};
+		7338B42EEFED9C0AAF407CBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC7CB26A636762F1968C74D5 /* Pods-Karga.debug.xcconfig */,
+				C07A64DBE7DA83FE5FBD149C /* Pods-Karga.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2BF34320C34FDD009907AC /* Karga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2BF36C20C34FDF009907AC /* Build configuration list for PBXNativeTarget "Karga" */;
+			buildPhases = (
+				EA51811F1A91F4BDDB2BEA06 /* [CP] Check Pods Manifest.lock */,
+				6F2BF34020C34FDD009907AC /* Sources */,
+				6F2BF34120C34FDD009907AC /* Frameworks */,
+				6F2BF34220C34FDD009907AC /* Resources */,
+				A93DA928124D9AB9E93D8942 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karga;
+			productName = Karga;
+			productReference = 6F2BF34420C34FDD009907AC /* Karga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F2BF35720C34FDF009907AC /* KargaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2BF36F20C34FDF009907AC /* Build configuration list for PBXNativeTarget "KargaTests" */;
+			buildPhases = (
+				6F2BF35420C34FDF009907AC /* Sources */,
+				6F2BF35520C34FDF009907AC /* Frameworks */,
+				6F2BF35620C34FDF009907AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2BF35A20C34FDF009907AC /* PBXTargetDependency */,
+			);
+			name = KargaTests;
+			productName = KargaTests;
+			productReference = 6F2BF35820C34FDF009907AC /* KargaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F2BF36220C34FDF009907AC /* KargaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2BF37220C34FDF009907AC /* Build configuration list for PBXNativeTarget "KargaUITests" */;
+			buildPhases = (
+				6F2BF35F20C34FDF009907AC /* Sources */,
+				6F2BF36020C34FDF009907AC /* Frameworks */,
+				6F2BF36120C34FDF009907AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2BF36520C34FDF009907AC /* PBXTargetDependency */,
+			);
+			name = KargaUITests;
+			productName = KargaUITests;
+			productReference = 6F2BF36320C34FDF009907AC /* KargaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2BF33C20C34FDD009907AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					nextPage,
+				);
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MrCrowley;
+				TargetAttributes = {
+					6F2BF34320C34FDD009907AC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					6F2BF35720C34FDF009907AC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6F2BF34320C34FDD009907AC;
+					};
+					6F2BF36220C34FDF009907AC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6F2BF34320C34FDD009907AC;
+					};
+				};
+			};
+			buildConfigurationList = 6F2BF33F20C34FDD009907AC /* Build configuration list for PBXProject "Karga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2BF33B20C34FDD009907AC;
+			productRefGroup = 6F2BF34520C34FDD009907AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2BF34320C34FDD009907AC /* Karga */,
+				6F2BF35720C34FDF009907AC /* KargaTests */,
+				6F2BF36220C34FDF009907AC /* KargaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2BF34220C34FDD009907AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2BF35220C34FDF009907AC /* LaunchScreen.storyboard in Resources */,
+				6F2BF37820C35231009907AC /* crow.png in Resources */,
+				6F2BF37620C35031009907AC /* GoogleService-Info.plist in Resources */,
+				6F2BF37A20C352A3009907AC /* crow2.png in Resources */,
+				6F2BF34F20C34FDF009907AC /* Assets.xcassets in Resources */,
+				6F2BF34D20C34FDD009907AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2BF35620C34FDF009907AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2BF36120C34FDF009907AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A93DA928124D9AB9E93D8942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Karga/Pods-Karga-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Karga/Pods-Karga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA51811F1A91F4BDDB2BEA06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2BF34020C34FDD009907AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAB5E8620C48BDB00A36D52 /* cargoDB.swift in Sources */,
+				6FFC972D20C372F6005096B4 /* SecondViewController.swift in Sources */,
+				6F2BF34A20C34FDD009907AC /* ViewController.swift in Sources */,
+				6F2BF37C20C35812009907AC /* ViewControllerSignUp.swift in Sources */,
+				6FAB5E8420C48AC200A36D52 /* TableViewCell.swift in Sources */,
+				6FFC972F20C40597005096B4 /* MapViewController.swift in Sources */,
+				6F2BF34820C34FDD009907AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2BF35420C34FDF009907AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2BF35D20C34FDF009907AC /* KargaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2BF35F20C34FDF009907AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2BF36820C34FDF009907AC /* KargaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F2BF35A20C34FDF009907AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F2BF34320C34FDD009907AC /* Karga */;
+			targetProxy = 6F2BF35920C34FDF009907AC /* PBXContainerItemProxy */;
+		};
+		6F2BF36520C34FDF009907AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F2BF34320C34FDD009907AC /* Karga */;
+			targetProxy = 6F2BF36420C34FDF009907AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F2BF34B20C34FDD009907AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2BF34C20C34FDD009907AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2BF35020C34FDF009907AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2BF35120C34FDF009907AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2BF36A20C34FDF009907AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F2BF36B20C34FDF009907AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F2BF36D20C34FDF009907AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7CB26A636762F1968C74D5 /* Pods-Karga.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Karga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyucel.Karga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F2BF36E20C34FDF009907AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07A64DBE7DA83FE5FBD149C /* Pods-Karga.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Karga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyucel.Karga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F2BF37020C34FDF009907AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KargaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyucel.KargaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karga.app/Karga";
+			};
+			name = Debug;
+		};
+		6F2BF37120C34FDF009907AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KargaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyucel.KargaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karga.app/Karga";
+			};
+			name = Release;
+		};
+		6F2BF37320C34FDF009907AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KargaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyucel.KargaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karga;
+			};
+			name = Debug;
+		};
+		6F2BF37420C34FDF009907AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KargaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuyucel.KargaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2BF33F20C34FDD009907AC /* Build configuration list for PBXProject "Karga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2BF36A20C34FDF009907AC /* Debug */,
+				6F2BF36B20C34FDF009907AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2BF36C20C34FDF009907AC /* Build configuration list for PBXNativeTarget "Karga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2BF36D20C34FDF009907AC /* Debug */,
+				6F2BF36E20C34FDF009907AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2BF36F20C34FDF009907AC /* Build configuration list for PBXNativeTarget "KargaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2BF37020C34FDF009907AC /* Debug */,
+				6F2BF37120C34FDF009907AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2BF37220C34FDF009907AC /* Build configuration list for PBXNativeTarget "KargaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2BF37320C34FDF009907AC /* Debug */,
+				6F2BF37420C34FDF009907AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2BF33C20C34FDD009907AC /* Project object */;
+}
